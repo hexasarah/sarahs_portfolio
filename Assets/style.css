@@ -23,7 +23,7 @@ header {
     padding: 20px;
   }
   
-  .card p {
+  .card {
     text-align: center;
   }
   
@@ -35,10 +35,10 @@ header {
       width: 50%;
     }
     .card header {
-      background: rgb(242, 190, 198);
+      background:rgb(216, 156, 166);
     }
     .card {
-        border-image: linear-gradient(#67c3e1,#f63cc8) 30;
+        border-image: linear-gradient(#f8fafa,#f63cc8) 30;
       }
   }
   @media screen and (max-width: 768px) {
@@ -48,11 +48,7 @@ header {
     .card header {
       background: rgb(216, 156, 166);
     }
-    .card {
-        border-image: linear-gradient(#67c3e1,#f63cc8) 30;
-      }
   }
-   .car
 footer {
     background-color: rgb(200, 102, 119);
     color: white;
