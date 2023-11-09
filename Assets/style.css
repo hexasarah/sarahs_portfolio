@@ -6,51 +6,45 @@
 header {
     background-color: rgb(200, 102, 119);
     color: white;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
 }
-
+li {
+  display: inline;
+  list-style-type: none;
+  font-size: 20px;
+  padding: 20px;
+}
+.about-me img {
+  margin: 25px;
+  display: inline;
+  float: left;
+  border: solid;
+  border-color: white;
+  border-width: 5px;
+}
+h2 {
+  text-align: center;
+  padding-top: 25px;
+}
+p {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  padding-top: 25px;
+}
+main {
+  display: inline-flex;
+  justify-content: left;
+}
 .card {
-    padding: 10px;
-    margin:5px;
-    float: left;
-    width: 25%;
-    border-image: linear-gradient(#f63cc8, #fdfdfd) 30;
-    border-width: 2px;
-    border-style: solid;
-  }
-  
-  
-  .card header {
-    padding: 20px;
-  }
-  
-  .card {
-    text-align: center;
-  }
-  
-  .card img {
-    width: 100%;
-  }
-  @media screen and (max-width: 992px) {
-    .card {
-      width: 50%;
-    }
-    .card header {
-      background:rgb(216, 156, 166);
-    }
-    .card {
-        border-image: linear-gradient(#f8fafa,#f63cc8) 30;
-      }
-  }
-  @media screen and (max-width: 768px) {
-    .card {
-      width: 100%;
-    }
-    .card header {
-      background: rgb(216, 156, 166);
-    }
-  }
+  display: inline-flex;
+}
 footer {
     background-color: rgb(200, 102, 119);
     color: white;
-    height: 75px;
+    height: 45px;
+    text-align: center;
+    padding: 20px;
 }
