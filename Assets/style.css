@@ -1,24 +1,58 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 0;
-    margin: 15px;
+    margin: 0;
 }
+/* This is supposed to appear with my name and the links on the same line, just justified to the left and right respectively */
 header {
     background-color: rgba(200, 102, 118, 0.69);
     color: white;
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
-}
-li {
+    height: 75px;
+  }
+  h1 {
+    display:flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-left: 20px;
+  }
+/* This is the nav bar on the upper right corner */
+header li {
   display: flex;
   float:inline-end;
+  align-items: center;
   list-style-type: none;
   font-size: 20px;
 }
+header ul {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 500px;
+  justify-content: space-around;
+}
+  /* text-decoration: none;
+  color:white; */
+/* }
+li:hover {
+  color: white;
+}
+li {
+
+  text-decoration: none;
+  color:white;
+} */
+.about-me {
+  display:flex;
+  width: 95%;
+  justify-content: space-around;
+  margin: 0 auto;
+}
 h2 {
   text-align: center;
-  /* padding-top: 25px; */
+  padding: 25px 0;
 }
 img {
   width: 25%;
@@ -46,6 +80,10 @@ p {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
+}
+li {
+  text-align: center;
+  display: inline-flex;
 }
 footer {
   background-color: rgba(200, 102, 118, 0.69);
