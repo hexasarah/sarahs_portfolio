@@ -3,12 +3,14 @@
     padding: 0;
     margin: 0;
 }
-/* This is supposed to appear with my name and the links on the same line, just justified to the left and right respectively */
+@media screen and (max-width: 768px) {
+}
+/* This is the overall header */
 header {
     background-color: rgba(200, 102, 118, 0.69);
     color: white;
     display: flex;
-    justify-content: space-between;
+    /* align-items: center; */
     height: 75px;
   }
   h1 {
@@ -19,35 +21,27 @@ header {
     margin-left: 20px;
   }
 /* This is the nav bar on the upper right corner */
-header li {
-  display: flex;
-  float:inline-end;
-  align-items: center;
-  list-style-type: none;
-  font-size: 20px;
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: white;
+  text-shadow: 0 0 10px white;
 }
 header ul {
+  font-size: 20px;
   display: flex;
   align-items: center;
   height: 100%;
   width: 500px;
   justify-content: space-around;
 }
-  /* text-decoration: none;
-  color:white; */
-/* }
-li:hover {
-  color: white;
-}
-li {
-
-  text-decoration: none;
-  color:white;
-} */
+/* This is the About-me section */
 .about-me {
   display:flex;
   width: 95%;
-  justify-content: space-around;
+  /* justify-content: space-between; */
   margin: 0 auto;
 }
 h2 {
@@ -65,16 +59,15 @@ img {
 p {
   display:flex;
   flex-wrap: wrap;
+  padding-left: 20px;
 }
-.main {
-  display: inline-flex;
-}
-/* .card {
+/* This is the projects section */
+.container1 {
   display: flex;
+  width: 50%;
+  align-items: center;
 }
-.card-header {
-  float: center;
-} */
+/* This is the contact-me section */
 .contact-me {
   color: white;
   display: flex;
@@ -85,6 +78,7 @@ li {
   text-align: center;
   display: inline-flex;
 }
+/* This is the footer */
 footer {
   background-color: rgba(200, 102, 118, 0.69);
   color: white;
