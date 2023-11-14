@@ -45,14 +45,14 @@ h2 {
   flex-wrap: wrap;
   padding-left: 20px;
 }
-/* This is the projects section */
+/* This is the projects section __________________________________*/
 .card1 {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 100%;
+  width: 50%;
   margin: 20px;
   border-radius: 7px;
-  display: flex;
+  /* display: flex; */
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -60,7 +60,7 @@ h2 {
   width: 25%;
   margin: 20px;
   border-radius: 7px;
-  display: flex;
+  /* display: flex; */
 }
 .card1:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -70,27 +70,28 @@ h2 {
 }
 .container1 {
   padding: 4px;
-  text-align: center;
 }
 .container {
   padding: 4px;
-  text-align: center;
 }
 h4 {
   background: rgba(200, 102, 118, 0.69);
   color: white;
+  text-align: center;
 }
 .container p {
   background: rgba(200, 102, 118, 0.69);
   color: white;
   padding-bottom: 5px;
+  text-align: center;
 }
 .container1 p {
   background: rgba(200, 102, 118, 0.69);
   color: white;
   padding-bottom: 5px;
+  text-align: center;
 }
-/* This is the contact-me section */
+/* This is the contact-me section ____________________________________*/
 .contact-me ul {
   font-size: 20px;
   display: flex;
