@@ -60,6 +60,10 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 margin: 1% 1% 1% 2%;
 min-width: 500px;
 }
+#big-project-container img {
+  display: flex;
+  margin-top:0;
+}
 #smaller-projects-container {
 margin: 1% 1% 1% 2%;
 max-width: 235px;
