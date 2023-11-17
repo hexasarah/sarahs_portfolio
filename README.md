@@ -14,4 +14,4 @@ This site is intended to be used as kind of a live resume where I'll update it a
 
 Screenshot below:
 
-    ![full-size screenshot of webpage, which is my pink-themed, light and airy portfolio](assets/images/screenshot.png)
+![full-size screenshot of webpage, which is my pink-themed, light and airy portfolio](./Assets/images/screenshot.png)
