@@ -43,7 +43,8 @@ box-shadow: 0 2px 10px rgba(0, 0, 0, .90)
 #about-me p {
 display:flex;
 flex-wrap: wrap;
-padding-left: 20px;
+padding-left: 40px;
+padding-right: 30px;
 }
 /* This is the projects section */
 .projects-container {
